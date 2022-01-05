@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-container {
+    width: 100%;
+    background-color: rgb(46, 41, 41);
+    height: 100px;
+    display: flex;
+}
+#item1 {
+    width: 40%;
+    height: 100%;
+}
+#item1-img{
+    position: relative;
+    top: 22px;
+    left: 85px;
+}
+#item2 {
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid rgb(90, 75, 75);
+}
+#item2-p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-size: 30px;
+}
+#item3 {
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid rgb(90, 75, 75);
+}
+#item3-p {
+    color: gray;
+    font-family: cursive;
+    position: relative;
+    top: 40px;
+    left: 35px;
+}
+#item-4-p {
+    color: white;
+    font-family: cursive;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+#dnld {
+    text-decoration: none;
+}
+#b2t {
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+a:link {
+    color: gray;
+}
+#item4 {
+    width: 20%;
+    height: 100%;
+}
+.second-container {
+background-color: rgb(207, 218, 158);
+width: 100%;
+height: 550ppx;
+}
+.name {
+    text-align: center;
+    color: rgb(29, 88, 88);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.formula {
+    text-align: center;
+    color: rgb(29, 88, 88);
+}
+.albert-img {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+#albert {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.info {
+    text-align: center;
+}
+.list-container {
+    width: 100%;
+    height: 550px;
+    background-color:rgb(207, 218, 158) ;
+}
+#list-title {
+    text-align: center;
+    padding-top: 10px;
+}
+#list-item {
+  padding-left: 70px;
+}
+.footer {
+    font-size: 20px;
+    width: 100%;
+    color: purple;
+    margin-top: 10px;
+}
+#footer1 {
+    padding-left: 70px;
+}
